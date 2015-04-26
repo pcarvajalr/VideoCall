@@ -11,7 +11,7 @@ body {
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 #remoteVideos video {
-    height: 70%;
+    width:100%;
     border: 1px solid #999;
     padding: 5px;
     background-color: #fff;
