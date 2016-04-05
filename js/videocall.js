@@ -7,9 +7,12 @@ $(document).ready(function() {
         // the id/element dom element that will hold "our" video
         localVideoEl: 'localVideo',
         // the id/element dom element that will hold remote videos
-        remoteVideosEl: 'remoteVideos',
-        // immediately ask for camera access
-        autoRequestMedia: true
+        remoteVideosEl: '',
+                // immediately ask for camera access
+        autoRequestMedia: true,
+        debug: false,
+        detectSpeakingEvents: true,
+        autoAdjustMic: false
     });
 
     // we have to wait until it's ready
